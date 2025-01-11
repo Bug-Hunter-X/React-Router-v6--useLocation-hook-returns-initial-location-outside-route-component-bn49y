@@ -1,0 +1,1 @@
+In React Router Dom v6, attempting to access the `useLocation` hook outside of a functional component that is a child of a route results in unexpected behavior. The hook returns the initial location of the application, rather than the location of the current route, causing issues when attempting to use the route parameters or other dynamic data.
