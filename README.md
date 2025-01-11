@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 where the `useLocation` hook returns the initial location of the app when used outside a component that's a direct child of a route.  The solution shows how to correctly access the location information.
